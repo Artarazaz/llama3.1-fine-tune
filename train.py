@@ -20,7 +20,7 @@ from tqdm.auto import tqdm
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, logging as hf_logging
 hf_logging.set_verbosity_error()  # reduce noisy HF logs
-HF_TOKEN = os.getenv("#######################") #remove hf-token for security you can replace your own token
+#HF_TOKEN = os.getenv("#######################") #remove hf-token for security you can replace your own token
 # -----------------------
 # Config (ویرایش کن در صورت نیاز)
 # -----------------------
