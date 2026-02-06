@@ -25,7 +25,8 @@ hf_logging.set_verbosity_error()  # reduce noisy HF logs
 # Config (ویرایش کن در صورت نیاز)
 # -----------------------
 MODEL_ID_OR_PATH = "meta-llama/Llama-3.1-8B-Instruct"   # یا مسیر مدل پایه
-#HF_TOKEN = os.getenv("HUGGINGFACE_TOKEN", "")           # اگر لازم است
+#HF_
+# TOKEN = os.getenv("HUGGINGFACE_TOKEN", "")           # اگر لازم است
 TRAIN_FILE = "/notebooks/train.jsonl"    # فایل داده train (jsonl)
 VAL_FILE   = "/notebooks/val.jsonl"      # فایل validation (jsonl)
 TEST_FILE  = "/notebooks/test.jsonl"     # فایل تست (اختیاری)
